@@ -169,12 +169,12 @@ You can now chat with your documents.
 * What are the limitations of the proposed method?
 
 ---
-
+My project is deployed in streamlit and can be accessed with below link.
 ```id="js3p7o"
 https://multi-agent-rag-app.streamlit.app/
 ```
 
-Anyone can access the application using this URL.
+#Anyone can access the application using this URL.
 
 ---
 
@@ -198,4 +198,11 @@ MIT License
 
 # Author
 
-Developed as an AI engineering project demonstrating advanced RAG architecture and multi-agent reasoning systems.
+Aparajita Vaish
+
+
+<!--Roll Number: MS2025013
+Department of Artificial Intelligence and Data Science
+IIIT-Bangalore-->
+
+For any queries regarding this repository or projects, please refer to individual project README files or contact through official channels.
