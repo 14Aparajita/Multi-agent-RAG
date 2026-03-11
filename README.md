@@ -170,110 +170,14 @@ You can now chat with your documents.
 
 ---
 
-# Deploying on Streamlit Cloud
-
-This project can be deployed using **Streamlit Community Cloud**.
-
----
-
-# Step 1 — Push Code to GitHub
-
-Ensure your repository structure is:
-
-```id="0hhtf4"
-Multi-agent-RAG/
-│
-└── rag_cli/
-    ├── app.py
-    ├── ingest.py
-    ├── retriever.py
-    ├── generator.py
-    ├── main.py
-    ├── agents/
-    └── requirements.txt
-```
-
-Commit and push your code.
-
----
-
-# Step 2 — Open Streamlit Cloud
-
-Go to:
-
-https://share.streamlit.io
-
-Login using your GitHub account.
-
----
-
-# Step 3 — Create New App
-
-Click **New App**.
-
-Fill the fields:
-
-Repository
-
-```id="vpb4to"
-YOUR_USERNAME/Multi-agent-RAG
-```
-
-Branch
-
-```id="hsm69m"
-main
-```
-
-Main file path
-
-```id="m7m8g2"
-rag_cli/app.py
-```
-
-This is important because your app file is inside the **rag_cli folder**.
-
----
-
-# Step 4 — Deploy
-
-Click **Deploy**.
-
-Streamlit will:
-
-* clone the repository
-* install dependencies from `requirements.txt`
-* start the application
-
-Deployment usually takes **2–5 minutes**.
-
----
-
-# Step 5 — Access Your App
-
-After deployment you will receive a public link:
-
 ```id="js3p7o"
-https://your-app-name.streamlit.app
+https://multi-agent-rag-app.streamlit.app/
 ```
 
 Anyone can access the application using this URL.
 
 ---
 
-# Updating the App
-
-Whenever you push updates to GitHub:
-
-```id="kjw7zv"
-git add .
-git commit -m "update"
-git push
-```
-
-Streamlit automatically redeploys the application.
-
----
 
 # Future Improvements
 
