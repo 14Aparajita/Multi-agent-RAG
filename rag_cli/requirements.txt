@@ -1,1 +1,29 @@
-streamlit faiss-cpu sentence-transformers transformers torch pypdf numpy
+# Web UI
+streamlit>=1.30.0
+
+# Vector search
+faiss-cpu>=1.7.4
+
+# Embeddings
+sentence-transformers>=2.7.0
+
+# LLM inference
+transformers>=4.40.0
+torch>=2.1.0
+accelerate>=0.27.0
+
+# PDF processing
+pypdf>=4.2.0
+
+# Data processing
+numpy>=1.26.0
+
+# Tokenization (required by transformers)
+tokenizers>=0.15.0
+
+# Model downloading utilities
+huggingface-hub>=0.20.0
+
+# Optional utilities (safe + often required)
+scipy>=1.11.0
+tqdm>=4.66.0
